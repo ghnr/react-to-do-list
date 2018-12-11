@@ -1,0 +1,23 @@
+button {
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 15%;
+  border: 1px solid rgb(67, 158, 79);
+  background: rgba(105, 228, 101);
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 85%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  background-color: rgb(101, 156, 228);
+  font-family: Arial, Helvetica, sans-serif;
+}

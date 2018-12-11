@@ -1,0 +1,52 @@
+.task {
+  margin: 10px 0;
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid rgb(187, 187, 187);
+  background-color: rgba(255, 255, 255, 0.329);
+  cursor: pointer;
+}
+
+.task span {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: rgb(22, 22, 22, 1);
+}
+
+.taskdone {
+  margin: 10px 0;
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid rgba(105, 228, 101, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+.taskdone span {
+  font-size: 1.1em;
+  color: rgb(22, 22, 22, 0.2);
+}
+
+.deleteButton {
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  width: 10%;
+  border: 1px solid rgb(187, 187, 187);
+  background: rgba(228, 101, 101);
+  cursor: pointer;
+}
+
+.deleteButtonDone {
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  width: 10%;
+  border: 1px solid rgba(187, 187, 187, 0.3);
+  background: rgba(228, 101, 101, 0.45);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
